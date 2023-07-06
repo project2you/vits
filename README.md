@@ -28,6 +28,7 @@ We also provide the [pretrained models](https://drive.google.com/drive/folders/1
 0. Python >= 3.6
 0. Clone this repository
 0. Install python requirements. Please refer [requirements.txt](requirements.txt)
+   pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 -f https://download.pytorch.org/whl/torch_stable.html
     1. You may need to install espeak first: `apt-get install espeak`
 0. Download datasets
     1. Download and extract the LJ Speech dataset, then rename or create a link to the dataset folder: `ln -s /path/to/LJSpeech-1.1/wavs DUMMY1`
